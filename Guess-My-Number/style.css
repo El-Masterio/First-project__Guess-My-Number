@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-color: #222;
+  background-color: #222
   /* background-color: #60b347; */
 }
 
@@ -98,7 +98,7 @@ h1 {
 .btn {
   border: none;
   background-color: #eee;
-  color: #222;
+  color: rgb(87, 7, 7);
   font-size: 2rem;
   font-family: inherit;
   padding: 2rem 3rem;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: rgb(196, 42, 42);
 }
 
 .message {
@@ -116,4 +116,47 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    color: rgb(87, 7, 7);
+  }
+
+  .number {
+    font-size: 3rem;
+    width: 7.5rem;
+    padding: 1.5rem 0rem;
+  }
+  .left {
+    width: 26rem;
+  }
+
+  .right {
+    width: 26rem;
+    font-size: 1rem;
+  }
+  .guess {
+    border: 2px solid #eee;
+    font-size: 2.5rem;
+    padding: 1.25rem;
+    width: 12.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .message {
+    margin-bottom: 4rem;
+    height: 1.5rem;
+  }
+  main {
+    height: 32.5rem;
+  }
+  .again {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
 }
