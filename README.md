@@ -1,5 +1,5 @@
 # First-project__Guess-My-Number
-first project i made following an online course on Udemy by Jonas Schmedtmann
+
 
 This is an educational Project made by me .. i'm currently learning JavaScript on Udemy in Jonas Schmedtmann online course ..
 
